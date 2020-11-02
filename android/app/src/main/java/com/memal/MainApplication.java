@@ -1,4 +1,4 @@
-package com.memal;
+package com.tikattak;
 
 import android.app.Application;
 import android.content.Context;

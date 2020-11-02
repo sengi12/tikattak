@@ -128,7 +128,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.memal"
+        applicationId "com.tikattak"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

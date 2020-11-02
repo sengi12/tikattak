@@ -35,12 +35,12 @@ android_library(
 
 android_build_config(
     name = "build_config",
-    package = "com.memal",
+    package = "com.tikattak",
 )
 
 android_resource(
     name = "res",
-    package = "com.memal",
+    package = "com.tikattak",
     res = "src/main/res",
 )
 

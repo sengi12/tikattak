@@ -1,4 +1,4 @@
-package com.memal;
+package com.tikattak;
 
 import com.facebook.react.ReactActivity;
 
@@ -14,7 +14,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "memal";
+    return "Tik AtTak";
   }
 
   @Override
