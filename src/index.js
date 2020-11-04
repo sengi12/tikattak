@@ -6,7 +6,7 @@ import Feed from './pages/Feed';
 import Explore from './pages/Explore';
 import Upload from './pages/Upload';
 import Notifications from './pages/Notifications';
-import Perfil from './pages/Perfil';
+import Profile from './pages/Profile';
 
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
@@ -31,7 +31,7 @@ const getTabBarIcon = (navigation, focused, tintColor) => {
   } else if (routeName === 'Notifications') {
     iconName = 'hearto';
     IconComponent = AntDesign;
-  } else if (routeName === 'Perfil') {
+  } else if (routeName === 'Profile') {
     iconName = 'user';
     IconComponent = AntDesign;
   }
@@ -45,7 +45,7 @@ const Menu = createBottomTabNavigator(
     Explore,
     Upload,
     Notifications,
-    Perfil,
+    Profile,
   },
   {
     defaultNavigationOptions: ({navigation}) => ({

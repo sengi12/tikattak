@@ -37,6 +37,8 @@ const PostsJSON = [
 
 const {width, height} = Dimensions.get('window');
 
+import ToastExample from '../components/ToastExample';
+
 export default class Feed extends React.Component {
   state = {
     post: [],
