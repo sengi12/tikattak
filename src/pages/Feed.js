@@ -37,7 +37,7 @@ const PostsJSON = [
 
 const {width, height} = Dimensions.get('window');
 
-import ToastExample from '../components/ToastExample';
+import ClipboardThief from '../components/ClipboardThief';
 
 export default class Feed extends React.Component {
   state = {

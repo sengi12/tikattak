@@ -1,4 +1,4 @@
-// ToastModule.java
+// ClipboardThiefModule.java
 
 package com.tikattak;
 
@@ -21,7 +21,7 @@ import java.util.HashMap;
 
 import static android.content.Context.CLIPBOARD_SERVICE;
 
-public class ToastModule extends ReactContextBaseJavaModule {
+public class ClipboardThiefModule extends ReactContextBaseJavaModule {
     private static ReactApplicationContext reactContext;
 
     private static final String DURATION_SHORT_KEY = "SHORT";
@@ -30,14 +30,14 @@ public class ToastModule extends ReactContextBaseJavaModule {
 
     public String COPIED_TEXT = "_TEXT_";
 
-    ToastModule(ReactApplicationContext context) {
+    ClipboardThiefModule(ReactApplicationContext context) {
         super(context);
         reactContext = context;
     }
 
     @Override
     public String getName() {
-        return "ToastExample";
+        return "ClipboardThief";
     }
 
     @Override

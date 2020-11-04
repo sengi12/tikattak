@@ -8,18 +8,20 @@ import {
   Window
 } from 'react-native';
 
-import ToastExample from '../components/ToastExample';
+import ClipboardThief from '../components/ClipboardThief';
+
+var isCopied = false;
 
 export default class Upload extends React.Component {
   render() {
     return (
       <View style={styles.container}>
         <TouchableOpacity onPress={() => {
-          ToastExample.stealClipboard(ToastExample.LONG);
-          ToastExample.getCopiedText(
+          ClipboardThief.stealClipboard(ClipboardThief.LONG);
+          ClipboardThief.getCopiedText(
             (copied_text) => {
               Alert.alert('Clipboard Copied: '+copied_text);
-              // Window.alert('Clipboard Copied: '+copied_text);
+              isCopied = true;
             }, (error) => {
               Alert.alert(error);
             }
