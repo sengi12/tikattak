@@ -34,7 +34,7 @@ export default class StatisticsPost extends React.Component {
 
     if (!this.state.isLike) {
       return ToastAndroid.show(
-        'Marcou esse vídeo como gostei',
+        'You liked this post',
         3,
         ToastAndroid.BOTTOM,
       );

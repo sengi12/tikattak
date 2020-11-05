@@ -37,7 +37,7 @@ export default class Avatar extends React.Component {
   actionOnBtnFollow = () => {
     this.setState({following: !this.state.following});
     return ToastAndroid.show(
-      this.state.following ? 'Você deixou de seguir' : 'Você começou a seguir',
+      this.state.following ? 'You stopped following' : 'You started following',
       3,
       ToastAndroid.BOTTOM,
     );

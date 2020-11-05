@@ -94,7 +94,7 @@ export default class CommentBox extends React.Component {
                 </TouchableWithoutFeedback>
               </View>
               <View style={style.commentReply}>
-                <Text style={style.commentFooterAction}>Responder</Text>
+                <Text style={style.commentFooterAction}>Reply</Text>
               </View>
             </View>
           </View>

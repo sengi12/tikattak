@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1017428832432",
+    "firebase_url": "https://tikattak-3d0cb.firebaseio.com",
+    "project_id": "tikattak-3d0cb",
+    "storage_bucket": "tikattak-3d0cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1017428832432:android:ad3102fefb953450f88b75",
+        "android_client_info": {
+          "package_name": "com.tikattak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1017428832432-9ruo4j2qk9d17cgrje3ir63t2gr2a2sf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNWF1fwhadHeyJjJQabup7sgwIv2Tx3Xo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1017428832432-9ruo4j2qk9d17cgrje3ir63t2gr2a2sf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

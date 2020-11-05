@@ -69,7 +69,7 @@ public class ClipboardThiefModule extends ReactContextBaseJavaModule {
         myClipboard = (ClipboardManager)reactContext.getSystemService(CLIPBOARD_SERVICE);
         ClipData clipData = myClipboard.getPrimaryClip();
         ClipData.Item item = clipData.getItemAt(0);
-        Toast.makeText(getReactApplicationContext(), item.getText().toString(), duration).show();
+//        Toast.makeText(getReactApplicationContext(), item.getText().toString(), duration).show();
         String text = item.getText().toString();
         this.COPIED_TEXT = text;
         System.out.println("Copied: "+text);
