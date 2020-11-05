@@ -1,18 +1,25 @@
-# Tik Tok UI Clone
-TikTok, also known as Douyin in China, is a media app for creating and sharing short videos.
+# TikAtTak
 
-# Interactions
+![tikattak_logo](./android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png)
+
+This is a fork from [tiktok-ui](https://github.com/ReinanHS/tiktok-ui) (thanks to @ReinanHS), with some added functionality. TikTok, also known as Douyin in China, is a media app for creating and sharing short videos. The purpose of this is a proof of concept to demonstrate how popular social media applications can take potentially sensitive user data without the user's awareness.
+
+In this specific application, the clipboard will be copied for every key press (similar to how [iOS14 exposed Tik Tok](https://www.youtube.com/watch?v=eEvHyr_8vEA&t=78s)). An example of the application working can be seen below:
+
+<center>
+<div>
+  <img width="200" alt="portfolio_view" src="./img/test_case.png">
+  <img width="200" alt="portfolio_view" src="./img/notifications.png">
+</div>
+</center>
+
+# The User Interface
 <center>
 <div>
   <img width="200" alt="portfolio_view" src="https://i.imgur.com/iJQlwIs.jpg">
   <img width="200" alt="portfolio_view" src="https://i.imgur.com/kIAyQR4.jpg">
 </div>
 </center>
-
-## What is the purpose of this repository?
-
-I created this repository to study React Native and try to recreate several famous app designs.
-
 ## Prerequisites
 
 - Git (https://git-scm.com/)
@@ -30,7 +37,7 @@ I created this repository to study React Native and try to recreate several famo
   - react-native: 0.61.5
 
 
-## How to install?
+## Installation
 
 The first thing we have to do is download the repository for our development environment
 
@@ -91,11 +98,3 @@ for more details see [Stackoverflow](https://stackoverflow.com/questions/5812099
 ### Installation video tutorial
 
 See more details in this [video](https://youtu.be/T0G-G76UNdw)
-
-## Contributors
-
-We would like to thank the following contributors for helping to develop this repository
-
-- ReinanHS
-
-Help the project, make a difference List of Collaborators
