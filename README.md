@@ -42,7 +42,7 @@ In this specific application, the clipboard will be copied for every key press (
 The first thing we have to do is download the repository for our development environment
 
 ```sh
-git clone https://github.com/ReinanHS/tiktok-ui.git
+git clone https://github.com/sengi12/tikattak.git
 ```
 
 ![GITHUB](https://media.giphy.com/media/J2IacsJPTXl8jflZqB/giphy.gif)
