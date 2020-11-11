@@ -6,7 +6,7 @@ This is a fork from [tiktok-ui](https://github.com/ReinanHS/tiktok-ui) (thanks t
 
 In this specific application, the clipboard will be copied for every key press (similar to how [iOS14 exposed Tik Tok](https://www.youtube.com/watch?v=eEvHyr_8vEA&t=78s)). An example of the application working can be seen below:
 
-![tikattak_demo](./img/tikattak_demo.mov)
+![tikattak_demo](./img/tikattak_demo.gif)
 
 
 # The User Interface
@@ -16,7 +16,6 @@ In this specific application, the clipboard will be copied for every key press (
   <img width="200" alt="portfolio_view" src="https://i.imgur.com/kIAyQR4.jpg">
 </div>
 </center>
-
 ## Prerequisites
 
 - Git (https://git-scm.com/)
