@@ -4,9 +4,14 @@
 
 This is a fork from [tiktok-ui](https://github.com/ReinanHS/tiktok-ui) (thanks to @ReinanHS), with some added functionality. TikTok, also known as Douyin in China, is a media app for creating and sharing short videos. The purpose of this is a proof of concept to demonstrate how popular social media applications can take potentially sensitive user data without the user's awareness.
 
-In this specific application, the clipboard will be copied for every key press (similar to how [iOS14 exposed Tik Tok](https://www.youtube.com/watch?v=eEvHyr_8vEA&t=78s)). An example of the application working can be seen below:
+In this specific application, the clipboard will be copied for every key press (similar to how [iOS14 exposed Tik Tok](https://www.youtube.com/watch?v=eEvHyr_8vEA&t=78s)). An example of the application working can be seen below (right) with an example of iOS (left):
 
-![tikattak_demo](./img/tikattak_demo.gif)
+<center>
+<div>
+  <img width="200" alt="portfolio_view" src="./img/ios-tiktok.gif">
+  <img width="200" alt="portfolio_view" src="./img/tikattak_demo.gif">
+</div>
+</center>
 
 
 # The User Interface
